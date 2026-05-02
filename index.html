@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zon &amp; schaduw — Kloosterstraat 9, Eext</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <h1>Zon &amp; schaduw</h1>
+        <div id="location-picker"></div>
+        <nav id="mode-tabs"></nav>
+      </header>
+
+      <div id="mode-controls"></div>
+
+      <main id="canvas-host">
+        <aside id="info-panel" hidden></aside>
+        <div id="overlay-toggles"></div>
+        <div id="drawing-banner" hidden></div>
+      </main>
+
+      <footer id="time-strip"></footer>
+
+      <div id="loading-banner" hidden>Laden…</div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

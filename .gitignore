@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.vite/
+.DS_Store
+*.log
+npm-debug.log*
+.env
+.env.local
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
