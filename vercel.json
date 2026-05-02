@@ -5,6 +5,30 @@
   "framework": "vite",
   "rewrites": [
     {
+      "source": "/api/3dbag/:path*",
+      "destination": "https://api.3dbag.nl/:path*"
+    },
+    {
+      "source": "/api/pdok-brt/:path*",
+      "destination": "https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/:path*"
+    },
+    {
+      "source": "/api/pdok-loc/:path*",
+      "destination": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/:path*"
+    },
+    {
+      "source": "/api/pdok-kadaster-wms",
+      "destination": "https://service.pdok.nl/kadaster/kadastralekaart/wms/v5_0"
+    },
+    {
+      "source": "/api/pdok-kadaster/:path*",
+      "destination": "https://api.pdok.nl/kadaster/brk-kadastrale-kaart/ogc/v1/:path*"
+    },
+    {
+      "source": "/api/pdok-luchtfoto",
+      "destination": "https://service.pdok.nl/hwh/luchtfotorgb/wms/v1_0"
+    },
+    {
       "source": "/((?!api|assets|.*\\..*).*)",
       "destination": "/index.html"
     }
